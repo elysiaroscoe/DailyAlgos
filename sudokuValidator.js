@@ -1,3 +1,5 @@
+//THIS IS NOT COMPLETED
+
 function validSolution(board) {
     //we've received a 2D array
 
@@ -18,6 +20,8 @@ function validSolution(board) {
     for (let i = 0; i < board.length; i++) {
         let rowRubric = { ...rubric }
         let columnRubric = { ...rubric }
+        let squareRubric = { ...rubric }
+        //i need to figure out how to assess each square independently
 
         for (let j = 0; j < board.length; j++) {
             let rowValue = board[i][j]
